@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial.">
+        <title>My portfolio</title>
+        <style>
+            body{
+                font-family: Times New Roman, sans-serif;
+                margin: auto;
+                padding: 0;
+        
+            }
+            nav {
+                background-color: white;
+                color: blue;
+                text-align: center;
+                padding: 10px O;
+            }
+            nav a {
+                color: #fff;
+                text-decoration: navy;
+                margin: auto;
+            }
+            nav a:hover{
+                text-decoration: underline;
+            }
+            section{
+                padding: 20px;
+                margin: auto;
+                border: 1px solid #ccc;
+            }
+            h2{
+                color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="#home">Home</a>
+            < a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </nav>
+        <section id="home">
+            <h2>Home</h2>
+            <p> Hi Welcome to my portfolio website. Here you can find information about me and my projects</p>
+        </section>
+        <section id="about">
+            <h2>About</h2> 
+            <p>I am university scholar pursing BSc in Naval Architecture and Marine Engineering.I have keen interest in learning tech and Engineering skills </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Check out some of my projects:</p>
+            <ul>
+                <li>Project 1: Design of Autonomous sailDrone Across indian ocean</li>
+                <li>Project 2: Development of a surveillance system for Remote Operated Vehicles </li>
+                <li>Project 3: Developement of  a system to detect carbon footprint in the atmosphere</li>
+            </ul>
+        </section>
+    </body>
+</html>
